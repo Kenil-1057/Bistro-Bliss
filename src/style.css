@@ -5,3 +5,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero{
+    background-image: url(/assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primary_btn{
+    display: block;
+    padding: 20px 32px;
+    background-color: #AD343E;
+    border-radius: 118px;
+    width: fit-content;
+    color: white;
+    font-family: "Work Sans", serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.primary_btn:hover{
+    background-color:#2C2F24;
+    border: none;
+}
+
+.secondary_btn{
+    display: block;
+    padding: 20px 32px;
+    border: 1.5px solid #2C2F24;
+    border-radius: 118px;
+    width: fit-content;
+    color: #182226;
+    font-family: "Work Sans", serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;   
+}
+
+.secondary_btn:hover{
+    color: white;
+    background-color: #2C2F24;
+    border: none;
+}
